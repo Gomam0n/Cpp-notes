@@ -45,3 +45,12 @@ Disadvantages:
 4. Inline function may increase compile time overhead if someone changes the code inside the inline function then all the calling location has to be recompiled because compiler would require to replace all the code once again to reflect the changes, otherwise it will continue with old functionality.
 5. Inline functions may not be useful for many embedded systems. Because in embedded systems code size is more important than speed.
 6. Inline functions might cause thrashing because inlining might increase size of the binary executable file. Thrashing in memory causes performance of computer to degrade.
+##	C++ vs Go
+1.	C++ is an object-oriented programming language. Go is a procedural and concurrent programming language
+2.	The code of Go is simpler and more compact
+3.	There is automatic garbage collector in Go.
+4.	Both have pointers. But Go does not allow pointer arithmetic. 
+5.	Go has a strict requirement of the format of the codes.
+##	C++ vs Python
+1.	Python runs through interpreter while C++ is pre-compiled
+2.	There is automatic garbage collector in Python.
